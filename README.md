@@ -1,4 +1,4 @@
-# README — Mercer General Project (Day 1)
+# README — Mercer General Project (Day 1 Challenge)
 
 ## Objective
 
@@ -13,6 +13,10 @@ After cleaning, the **Gender** column is encoded as follows:
 
 ---
 
-## Dataset
+## Dataset/Input
 
 **File used:** `EmergencyTriageDataset_Reduced_Dirty.csv`
+
+## Output
+
+**Cleaned dataset generated:** `EmergencyTriageDataset_Reduced_Clean.csv`
