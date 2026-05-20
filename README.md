@@ -10,6 +10,7 @@ After cleaning, the **Gender** column is encoded as follows:
 
 - **1 = Male patients**  
 - **0 = Female patients**
+- **-1 = unkown**
 
 ---
 
