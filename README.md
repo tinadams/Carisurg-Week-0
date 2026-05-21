@@ -41,4 +41,7 @@ After evaluating the data, missing values in the **Fio2** column were imputed us
 - Filled missing values using the mode value  
 - Ensured consistency and readiness for later analysis
 
-**Cleaned dataset generated:** `EmergencyTriageDataset_Reduced_Clean_Fio2.csv`
+
+## Dataset/Input
+
+**File used:** `EmergencyTriageDataset_Reduced_Dirty.csv`
