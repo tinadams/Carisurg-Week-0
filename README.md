@@ -32,7 +32,7 @@ Although the original dataset did not contain values outside the valid range (be
 
 This approach was selected because it preserves the most frequently occurring clinical value in the dataset without adding unnecessary variation into the distribution.
 
-# Data Cleaning Steps (Fio2 Column)
+### Data Cleaning Steps (Fio2 Column)
 
 - Checked for invalid or out-of-range values
 - Identified missing values (NaN) in the **Fio2** column  
