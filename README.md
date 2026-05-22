@@ -29,7 +29,7 @@ After cleaning, the **Gender** column is encoded as follows:
 
 The main task for Day 2 is to clean the **Fio2** column within an Emergency Department dataset at Mercer General Hospital.
 
-Although the original dataset did not contain outside the valid range (below 21% or above 100%), it included missing values (NaN). These missing entries were identified and imputed uding the mode to ensure the column was in a consistent and usable format.
+Although the original dataset did not contain values outside the valid range (below 21% or above 100%), it included missing values (NaN). These missing entries were identified and imputed uding the mode to ensure the column was in a consistent and usable format.
 
 This approach was selected because it preserves the most frequently occurring clinical value in the dataset without adding unnecessary variation into the distribution.
 
