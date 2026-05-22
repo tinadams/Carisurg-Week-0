@@ -16,11 +16,11 @@ After cleaning, the **Gender** column is encoded as follows:
 
 ---
 
-## Dataset/Input
+# Dataset/Input
 
 **File used:** `EmergencyTriageDataset_Reduced_Dirty.csv`
 
-## Output
+# Output
 
 **Cleaned dataset generated:** `EmergencyTriageDataset_Reduced_Clean.csv`
 
@@ -32,7 +32,7 @@ Although the original dataset did not contain values outside the valid range (be
 
 This approach was selected because it preserves the most frequently occurring clinical value in the dataset without adding unnecessary variation into the distribution.
 
-## Data Cleaning Steps (Fio2 Column)
+# Data Cleaning Steps (Fio2 Column)
 
 - Checked for invalid or out-of-range values
 - Identified missing values (NaN) in the **Fio2** column  
@@ -50,7 +50,7 @@ The main task for Day 3 is to create **data visualizations** using an Emergency 
 
 My work looks at relationships and patterns in key clinical variables, including respiratory rate, heart rate, age, and oxygen support (FiO₂).
 
-## Plot 1: RR vs Pulse
+# Plot 1: RR vs Pulse
 This scatter plot explores the relationship between respiratory rate and heart rate.
 
 Clinical thresholds were added for:
@@ -59,12 +59,12 @@ Clinical thresholds were added for:
 
 The data shows no strong or consistent relationship between RR and pulse, although some patients exceed clinical thresholds.
 
-## Plot 2A: FiO₂ Distribution
+# Plot 2A: FiO₂ Distribution
 This histogram shows the distribution of oxygen support levels.
 
 Most patients are clustered at lower FiO₂ values, suggesting many are on room air or low oxygen support, with fewer patients requiring higher levels.
 
-## Plot 2B: Age vs FiO₂
+# Plot 2B: Age vs FiO₂
 This scatter plot looks at whether age is related to oxygen support levels.
 
 The data suggests a possible weak relationship, with slightly higher FiO₂ in older patients, but there is no clear pattern.
