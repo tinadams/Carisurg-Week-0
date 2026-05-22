@@ -26,7 +26,6 @@ After cleaning, the **Gender** column is encoded as follows:
 
 
 ## DAY 2
-
 The main task for Day 2 is to clean the **Fio2** column within an Emergency Department dataset at Mercer General Hospital.
 
 Although the original dataset did not contain values outside the valid range (below 21% or above 100%), it included missing values (NaN). These missing entries were identified and imputed uding the mode to ensure the column was in a consistent and usable format.
@@ -41,6 +40,34 @@ This approach was selected because it preserves the most frequently occurring cl
 - Filled missing values using the mode value  
 - Ensured consistency and readiness for later analysis
 
+
+## Dataset/Input
+
+**File used:** `EmergencyTriageDataset_Reduced_Dirty.csv`
+
+## DAY 3
+The main task for Day 3 is to create **data visualizations** using an Emergency Department dataset at Mercer General Hospital.
+
+My work looks at relationships and patterns in key clinical variables, including respiratory rate, heart rate, age, and oxygen support (FiO₂).
+
+## Plot 1: RR vs Pulse
+This scatter plot explores the relationship between respiratory rate and heart rate.
+
+Clinical thresholds were added for:
+- RR > 20 (tachypnoea)  
+- Pulse > 100 (tachycardia)
+
+The data shows no strong or consistent relationship between RR and pulse, although some patients exceed clinical thresholds.
+
+## Plot 2A: FiO₂ Distribution
+This histogram shows the distribution of oxygen support levels.
+
+Most patients are clustered at lower FiO₂ values, suggesting many are on room air or low oxygen support, with fewer patients requiring higher levels.
+
+## Plot 2B: Age vs FiO₂
+This scatter plot looks at whether age is related to oxygen support levels.
+
+The data suggests a possible weak relationship, with slightly higher FiO₂ in older patients, but there is no clear pattern.
 
 ## Dataset/Input
 
