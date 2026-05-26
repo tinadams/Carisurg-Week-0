@@ -80,4 +80,5 @@ The data suggests a possible weak relationship, with slightly higher FiO₂ in o
 ## Assignment 7
 Career Challenge
 Topic: Time Management for MedTech Students
-<img width="1545" height="1999" alt="Time Management" src="https://github.com/user-attachments/assets/c041a313-0dd1-423c-abd2-7a129aa66706" />
+<img width="1545" height="1999" alt="Time Management" src="https://github.com/user-attachments/assets/8eb6741c-2f8e-4af5-a173-d55ca075801b" />
+
