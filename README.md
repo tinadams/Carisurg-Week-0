@@ -1,9 +1,13 @@
-# README — Mercer General Project 
+# README — CARISURG WEEK 0
+
+This repository contains work completed during Week 0 of the Carisurg MedTech Pathways program, including Day 1–3 assignments and the Day 7 Career Challenge focused on time management and the development of a personal weekly timetable.
+
+## Mercer General Project 
 
 ## Objective
 This project focuses on practicing data cleaning techniques in Python. 
 
-## DAY 1
+## Assignment 1
 The main task for Day 1 is to clean the **Gender** column within an Emergency Department dataset at Mercer General Hospital.
 
 The dataset originally contained inconsistent and non-standard gender entries (referred to as “dirty” data). These values were cleaned and transformed into a consistent numeric format that can be used for future analysis and modeling.
@@ -25,7 +29,7 @@ After cleaning, the **Gender** column is encoded as follows:
 **Cleaned dataset generated:** `EmergencyTriageDataset_Reduced_Clean.csv`
 
 
-## DAY 2
+## Assignment 2
 The main task for Day 2 is to clean the **Fio2** column within an Emergency Department dataset at Mercer General Hospital.
 
 Although the original dataset did not contain values outside the valid range (below 21% or above 100%), it included missing values (NaN). These missing entries were identified and imputed uding the mode to ensure the column was in a consistent and usable format.
@@ -45,7 +49,7 @@ This approach was selected because it preserves the most frequently occurring cl
 
 **File used:** `EmergencyTriageDataset_Reduced_Dirty.csv`
 
-## DAY 3
+## Assignment 3
 The main task for Day 3 is to create **data visualizations** using an Emergency Department dataset at Mercer General Hospital.
 
 My work looks at relationships and patterns in key clinical variables, including respiratory rate, heart rate, age, and oxygen support (FiO₂).
@@ -72,3 +76,8 @@ The data suggests a possible weak relationship, with slightly higher FiO₂ in o
 #### Dataset/Input
 
 **File used:** `EmergencyTriageDataset_Reduced_Dirty.csv`
+
+## Assignment 7
+Career Challenge
+Topic: Time Management for MedTech Students
+<img width="1545" height="1999" alt="Time Management" src="https://github.com/user-attachments/assets/c041a313-0dd1-423c-abd2-7a129aa66706" />
