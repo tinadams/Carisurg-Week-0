@@ -61,8 +61,6 @@ The analysis included:
 - Age  
 - Oxygen support (FiO₂)  
 
----
-
 ### Plot 1 — RR vs Pulse
 This scatter plot explores the relationship between respiratory rate and heart rate.
 
@@ -73,7 +71,6 @@ Clinical thresholds included:
 #### Findings
 The data shows no strong or consistent relationship between respiratory rate and pulse, although several patients exceed clinical thresholds.
 
----
 
 ### Plot 2A — FiO₂ Distribution
 This histogram displays the distribution of oxygen support levels.
@@ -81,7 +78,6 @@ This histogram displays the distribution of oxygen support levels.
 #### Findings
 Most patients cluster at lower FiO₂ values, suggesting many are on room air or low oxygen support, while fewer require higher oxygen concentrations.
 
----
 
 ### Plot 2B — Age vs FiO₂
 This scatter plot examines whether patient age is associated with oxygen support levels.
