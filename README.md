@@ -100,7 +100,7 @@ These assignments focused on describing and interpreting key vital signs commonl
 ## Assignment 6 — Triage Risk-Level Pseudocode
 
 ### Objective
-This assignment involved designing a pseudocode framework to simulate how a digital triaging system assigns risk levels based on patient vital signs and other clinical indicators. Building on foundational knowledge of emergency department triage and the key metrics used in clinical decision-making, the task required creating a representation of how an AI system could process patient inputs and categorise them into appropriate risk levels.
+This assignment focused on designing a pseudocode framework to show how a digital triage system could assign risk levels based on patient vital signs and other clinical indicators. Using basic knowledge of emergency department triage and common clinical metrics, the task involved mapping out how an AI system might process patient information and sort it into appropriate risk categories.
 
 ---
 
@@ -110,13 +110,12 @@ This assignment involved designing a pseudocode framework to simulate how a digi
 **Time Management for MedTech Students**
 
 ### Objective
-This assignment focused on building effective time management strategies for students participating in the Carisurg MedTech Pathways Healthcare AI Program.
+This assignment focused on helping me develop better time management strategies for the Carisurg MedTech Pathways Healthcare AI Program. It encouraged me to reflect on how I currently manage my time and identify ways to become more organised and consistent.
 
-The project included:
-- A 12-week time management plan  
-- Weekly scheduling strategies  
+The assignment included:
+- A time management plan for the next 12 weeks 
+- Daily scheduling strategies to structure my routine 
 - Personal productivity planning  
-- Development of a structured weekly timetable  
 
 ### Career Challenge Image
 <img width="1545" height="1999" alt="Time Management" src="https://github.com/user-attachments/assets/8eb6741c-2f8e-4af5-a173-d55ca075801b" />
