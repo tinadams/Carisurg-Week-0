@@ -3,7 +3,7 @@
 ## Overview
 This repository contains work completed during **Week 0** of the **Carisurg MedTech Pathways Healthcare AI Program**.
 
-The repository includes Assignments 1–7, covering healthcare data cleaning, data visualization, triage concepts, pseudocode development, and time management planning for healthcare AI students.
+The repository includes Assignments 1–7, covering healthcare data cleaning, data visualization, triage concepts, pseudocode development, and time management planning.
 
 ---
 
