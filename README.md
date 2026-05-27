@@ -1,84 +1,126 @@
 # README — CARISURG WEEK 0
 
-This repository contains work completed during Week 0 of the Carisurg MedTech Pathways program, including Day 1–3 assignments and the Day 7 Career Challenge focused on time management and the development of a personal weekly timetable.
+## Overview
+This repository contains work completed during **Week 0** of the **Carisurg MedTech Pathways Healthcare AI Program**.
 
-## Mercer General Project 
-
-## Objective
-This project focuses on practicing data cleaning techniques in Python. 
-
-## Assignment 1
-The main task for Day 1 is to clean the **Gender** column within an Emergency Department dataset at Mercer General Hospital.
-
-The dataset originally contained inconsistent and non-standard gender entries (referred to as “dirty” data). These values were cleaned and transformed into a consistent numeric format that can be used for future analysis and modeling.
-
-After cleaning, the **Gender** column is encoded as follows:
-
-- **1 = Male patients**  
-- **0 = Female patients**
-- **-1 = unkown**
+The repository includes Assignments 1–7, covering healthcare data cleaning, data visualization, triage concepts, pseudocode development, and time management planning for healthcare AI students.
 
 ---
 
-#### Dataset/Input
+# Repository Contents
 
-**File used:** `EmergencyTriageDataset_Reduced_Dirty.csv`
+## Assignment 1 — Cleaning the Gender Column
 
-#### Output
+### Objective
+This assignment focused on cleaning the **Gender** column within an Emergency Department dataset from Mercer General Hospital.
 
-**Cleaned dataset generated:** `EmergencyTriageDataset_Reduced_Clean.csv`
+The dataset originally contained inconsistent and non-standard gender entries (“dirty” data). These values were cleaned and transformed into a standardized numeric format suitable for future analysis and projects.
 
+### Gender Encoding
+- **1 = Male patients**  
+- **0 = Female patients**  
+- **-1 = Unknown**
 
-## Assignment 2
-The main task for Day 2 is to clean the **Fio2** column within an Emergency Department dataset at Mercer General Hospital.
+### Dataset/Input
+`EmergencyTriageDataset_Reduced_Dirty.csv`
 
-Although the original dataset did not contain values outside the valid range (below 21% or above 100%), it included missing values (NaN). These missing entries were identified and imputed uding the mode to ensure the column was in a consistent and usable format.
+### Output
+`EmergencyTriageDataset_Reduced_Clean.csv`
 
-This approach was selected because it preserves the most frequently occurring clinical value in the dataset without adding unnecessary variation into the distribution.
+---
 
-#### Data Cleaning Steps (Fio2 Column)
+## Assignment 2 — Cleaning the FiO₂ Column
 
-- Checked for invalid or out-of-range values
-- Identified missing values (NaN) in the **Fio2** column  
-- Analyzed distribution to determine appropriate imputation method  
-- Filled missing values using the mode value  
-- Ensured consistency and readiness for later analysis
+### Objective
+This assignment focused on cleaning the **FiO₂** column in the Emergency Department dataset.
 
+Although the dataset did not contain clinically invalid FiO₂ values (below 21% or above 100%), it did contain missing values (`NaN`). These missing values were identified and imputed using the **mode** of the column.
 
-#### Dataset/Input
+This method was selected because it preserves the most frequently occurring clinical value without introducing unnecessary variation into the dataset.
 
-**File used:** `EmergencyTriageDataset_Reduced_Dirty.csv`
+### Data Cleaning Steps
+- Checked for invalid or out-of-range values  
+- Identified missing values (`NaN`)  
+- Analyzed the distribution of FiO₂ values  
+- Filled missing values using the mode  
+- Verified consistency for later analysis  
 
-## Assignment 3
-The main task for Day 3 is to create **data visualizations** using an Emergency Department dataset at Mercer General Hospital.
+### Dataset/Input
+`EmergencyTriageDataset_Reduced_Dirty.csv`
 
-My work looks at relationships and patterns in key clinical variables, including respiratory rate, heart rate, age, and oxygen support (FiO₂).
+---
 
-#### Plot 1: RR vs Pulse
+## Assignment 3 — Data Visualization
+
+### Objective
+This assignment focused on creating visualizations from an Emergency Department dataset to explore clinical relationships and trends.
+
+The analysis included:
+- Respiratory rate (RR)  
+- Pulse/heart rate  
+- Age  
+- Oxygen support (FiO₂)  
+
+---
+
+### Plot 1 — RR vs Pulse
 This scatter plot explores the relationship between respiratory rate and heart rate.
 
-Clinical thresholds were added for:
-- RR > 20 (tachypnoea)  
-- Pulse > 100 (tachycardia)
+Clinical thresholds included:
+- **RR > 20** → Tachypnoea  
+- **Pulse > 100** → Tachycardia  
 
-The data shows no strong or consistent relationship between RR and pulse, although some patients exceed clinical thresholds.
+#### Findings
+The data shows no strong or consistent relationship between respiratory rate and pulse, although several patients exceed clinical thresholds.
 
-#### Plot 2A: FiO₂ Distribution
-This histogram shows the distribution of oxygen support levels.
+---
 
-Most patients are clustered at lower FiO₂ values, suggesting many are on room air or low oxygen support, with fewer patients requiring higher levels.
+### Plot 2A — FiO₂ Distribution
+This histogram displays the distribution of oxygen support levels.
 
-#### Plot 2B: Age vs FiO₂
-This scatter plot looks at whether age is related to oxygen support levels.
+#### Findings
+Most patients cluster at lower FiO₂ values, suggesting many are on room air or low oxygen support, while fewer require higher oxygen concentrations.
 
-The data suggests a possible weak relationship, with slightly higher FiO₂ in older patients, but there is no clear pattern.
+---
 
-#### Dataset/Input
+### Plot 2B — Age vs FiO₂
+This scatter plot examines whether patient age is associated with oxygen support levels.
 
-**File used:** `EmergencyTriageDataset_Reduced_Dirty.csv`
+#### Findings
+The data suggests a weak relationship, with slightly higher FiO₂ values appearing more frequently in older patients, though no strong trend is present.
 
-## Assignment 7
-Career Challenge
-Topic: Time Management for MedTech Students
+### Dataset/Input
+`EmergencyTriageDataset_Reduced_Dirty.csv`
+
+---
+
+## Assignments 4 & 5 — Vital Sign Descriptions Used in Triage
+
+### Objective
+These assignments focused on describing and interpreting key vital signs commonly used in emergency triage systems. The topics covered were blood pressure and oxygen saturation (SpO₂), with emphasis on their clinical thresholds and their role in supporting accurate patient assessment and clinical decision-making in emergency triage settings.
+
+---
+
+## Assignment 6 — Triage Risk-Level Pseudocode
+
+### Objective
+This assignment involved designing a pseudocode framework to simulate how a digital triaging system assigns risk levels based on patient vital signs and other clinical indicators. Building on foundational knowledge of emergency department triage and the key metrics used in clinical decision-making, the task required creating a representation of how an AI system could process patient inputs and categorise them into appropriate risk levels.
+
+---
+
+## Assignment 7 — Career Challenge: Time Management
+
+### Topic
+**Time Management for MedTech Students**
+
+### Objective
+This assignment focused on building effective time management strategies for students participating in the Carisurg MedTech Pathways Healthcare AI Program.
+
+The project included:
+- A 12-week time management plan  
+- Weekly scheduling strategies  
+- Personal productivity planning  
+- Development of a structured weekly timetable  
+
+### Career Challenge Image
 <img width="1545" height="1999" alt="Time Management" src="https://github.com/user-attachments/assets/8eb6741c-2f8e-4af5-a173-d55ca075801b" />
-
