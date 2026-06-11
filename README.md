@@ -119,3 +119,5 @@ The assignment included:
 
 ### Career Challenge Image
 <img width="1545" height="1999" alt="Time Management" src="https://github.com/user-attachments/assets/8eb6741c-2f8e-4af5-a173-d55ca075801b" />
+
+## Contributions
